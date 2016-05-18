@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -fmessage-length=0 -g  -shared -Wl,-soname,libtest.so -o libtest.so CMakeFiles/test.dir/test.o CMakeFiles/test.dir/api_c_extern/hdf.o CMakeFiles/test.dir/api_c_extern/Threads.o 

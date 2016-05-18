@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eads.ts.ate.hmi.log.model:Log xmlns:eads.ts.ate.hmi.log.model="http://fr.alyotech.ate/ATE/Log/">
+  <observations date="2015-04-06T10:46:28.038+0200" user="admin" updatedObject="ICD" notificationType="ADD" updatedProperty="devices" aNewValue="RDIU"/>
+  <observations date="2015-04-06T10:46:34.625+0200" user="admin" updatedObject="ICD" notificationType="ADD" updatedProperty="devices" aNewValue="IDU"/>
+  <observations date="2015-04-06T10:46:48.398+0200" user="admin" updatedObject="ICD" notificationType="REMOVE" oldValue="IDU"/>
+  <observations date="2015-04-06T10:47:04.578+0200" user="admin" updatedObject="ICD" notificationType="ADD" updatedProperty="devices" aNewValue="FADEC"/>
+  <observations date="2015-04-06T10:47:24.540+0200" user="admin" updatedObject="Device : FADEC" notificationType="ADD" updatedProperty="channels" aNewValue="Channel1"/>
+  <observations date="2015-04-06T10:47:48.101+0200" user="admin" updatedObject="Channel : Channel1" notificationType="ADD" updatedProperty="datas" aNewValue=""/>
+  <observations date="2015-04-06T10:47:53.196+0200" user="admin" updatedObject="Channel : Channel1" notificationType="ADD" updatedProperty="dataContainers" aNewValue="Automatic Framing"/>
+  <observations date="2015-04-06T10:48:06.356+0200" user="admin" updatedObject="DataContainer : Automatic Framing" notificationType="ADD" updatedProperty="datas" aNewValue="Label"/>
+  <observations date="2015-04-06T10:48:26.370+0200" user="admin" updatedObject="Data : Label" notificationType="SET" updatedProperty="type" oldValue="java.lang.Object@b91916" aNewValue="OPAQUE"/>
+  <observations date="2015-04-06T10:48:44.055+0200" user="admin" updatedObject="Data : Label" notificationType="SET" updatedProperty="defaultValue" oldValue="java.lang.Object@b91916" aNewValue="8"/>
+  <observations date="2015-04-06T10:49:30.380+0200" user="admin" updatedObject="Data : Label" notificationType="SET" updatedProperty="defaultValue" oldValue="8" aNewValue=""/>
+  <observations date="2015-04-06T10:49:52.985+0200" user="admin" updatedObject="DataConf : Label.Label" notificationType="SET" updatedProperty="valueFormat" oldValue="Octal" aNewValue="Binary"/>
+  <observations date="2015-04-06T10:49:59.258+0200" user="admin" updatedObject="DataConf : Label.Label" notificationType="SET" updatedProperty="valueFormat" oldValue="Binary" aNewValue="Decimal"/>
+  <observations date="2015-04-06T10:50:04.036+0200" user="admin" updatedObject="DataConf : Label.Label" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="8"/>
+  <observations date="2015-04-06T10:50:08.083+0200" user="admin" updatedObject="DataConf : Label.Label" notificationType="SET" updatedProperty="valueFormat" oldValue="java.lang.Object@b91916" aNewValue="Hexadecimal"/>
+  <observations date="2015-04-06T10:50:09.381+0200" user="admin" updatedObject="DataConf : Label.Label" notificationType="SET" updatedProperty="valueFormat" oldValue="Hexadecimal" aNewValue="Octal"/>
+  <observations date="2015-04-06T10:50:13.426+0200" user="admin" updatedObject="DataConf : Label.Label" notificationType="SET" updatedProperty="valueFormat" oldValue="Octal" aNewValue="Binary"/>
+  <observations date="2015-04-06T10:50:15.123+0200" user="admin" updatedObject="DataConf : Label.Label" notificationType="SET" updatedProperty="valueFormat" oldValue="Binary" aNewValue="Decimal"/>
+  <observations date="2015-04-06T10:50:19.408+0200" user="admin" updatedObject="DataConf : Label.Label" notificationType="SET" updatedProperty="valueFormat" oldValue="java.lang.Object@b91916" aNewValue="Hexadecimal"/>
+  <observations date="2015-04-06T10:50:20.141+0200" user="admin" updatedObject="DataConf : Label.Label" notificationType="SET" updatedProperty="valueFormat" oldValue="Hexadecimal" aNewValue="Octal"/>
+  <observations date="2015-04-06T10:50:21.151+0200" user="admin" updatedObject="DataConf : Label.Label" notificationType="SET" updatedProperty="valueFormat" oldValue="Octal" aNewValue="Binary"/>
+  <observations date="2015-04-06T10:50:23.848+0200" user="admin" updatedObject="DataConf : Label.Label" notificationType="SET" updatedProperty="valueFormat" oldValue="Binary" aNewValue="Decimal"/>
+  <observations date="2015-04-06T10:50:30.461+0200" user="admin" updatedObject="DataConf : Label.Period" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="20"/>
+  <observations date="2015-04-06T10:51:14.862+0200" user="admin" updatedObject="Data : Label" notificationType="ADD" updatedProperty="datas" aNewValue="Field"/>
+  <observations date="2015-04-06T10:51:40.952+0200" user="admin" updatedObject="Data : Field" notificationType="SET" updatedProperty="type" oldValue="java.lang.Object@b91916" aNewValue="OPAQUE"/>
+  <observations date="2015-04-06T10:52:24.049+0200" user="admin" updatedObject="Data : Field" notificationType="SET" updatedProperty="type" oldValue="java.lang.Object@b91916" aNewValue="INT"/>
+  <observations date="2015-04-06T10:52:34.857+0200" user="admin" updatedObject="Data : Field" notificationType="SET" updatedProperty="size" oldValue="java.lang.Object@b91916" aNewValue="20"/>
+  <observations date="2015-04-06T10:53:28.353+0200" user="admin" updatedObject="Data : Field" notificationType="SET" updatedProperty="size" oldValue="20" aNewValue="0"/>
+  <observations date="2015-04-06T10:53:31.751+0200" user="admin" updatedObject="Data : Field" notificationType="SET" updatedProperty="min" oldValue="java.lang.Object@b91916" aNewValue="0"/>
+  <observations date="2015-04-06T10:53:32.890+0200" user="admin" updatedObject="Data : Field" notificationType="SET" updatedProperty="max" oldValue="java.lang.Object@b91916" aNewValue="0"/>
+  <observations date="2015-04-06T10:53:40.648+0200" user="admin" updatedObject="Data : Field" notificationType="SET" updatedProperty="defaultValue" oldValue="java.lang.Object@b91916" aNewValue="0"/>
+  <observations date="2015-04-06T10:55:11.525+0200" user="admin" updatedObject="Data : Data" notificationType="SET" updatedProperty="name" oldValue="Field" aNewValue="Data"/>
+  <observations date="2015-04-06T10:57:14.243+0200" user="admin" updatedObject="Data : Data" notificationType="SET" updatedProperty="type" oldValue="INT" aNewValue="OPAQUE"/>
+  <observations date="2015-04-06T10:59:55.814+0200" user="admin" updatedObject="Data : Data" notificationType="SET" updatedProperty="type" oldValue="java.lang.Object@b91916" aNewValue="DOUBLE"/>
+  <observations date="2015-04-06T11:00:31.343+0200" user="admin" updatedObject="Data : Data" notificationType="ADD" updatedProperty="filters" aNewValue="BNR_I8"/>
+  <observations date="2015-04-06T11:01:28.867+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.Bit number" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="16"/>
+  <observations date="2015-04-06T11:01:55.073+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.Bit number" notificationType="SET" updatedProperty="valueFormat" oldValue="java.lang.Object@b91916" aNewValue="Hexadecimal"/>
+  <observations date="2015-04-06T11:01:55.720+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.Bit number" notificationType="SET" updatedProperty="valueFormat" oldValue="Hexadecimal" aNewValue="Octal"/>
+  <observations date="2015-04-06T11:01:56.352+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.Bit number" notificationType="SET" updatedProperty="valueFormat" oldValue="Octal" aNewValue="Binary"/>
+  <observations date="2015-04-06T11:01:57.197+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.Bit number" notificationType="SET" updatedProperty="valueFormat" oldValue="Binary" aNewValue="Decimal"/>
+  <observations date="2015-04-06T11:07:36.145+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.First bit" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="3"/>
+  <observations date="2015-04-06T11:08:17.334+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.Weight" notificationType="SET" updatedProperty="value" oldValue="0.0" aNewValue="0.01"/>
+  <observations date="2015-04-06T11:08:52.428+0200" user="admin" updatedObject="Device : RDIU" notificationType="ADD" updatedProperty="channels" aNewValue="A429"/>
+  <observations date="2015-04-06T11:09:08.872+0200" user="admin" updatedObject="Device : RDIU" notificationType="COPY" oldValue="Channel1" aNewValue="Channel1"/>
+  <observations date="2015-04-06T11:09:13.405+0200" user="admin" updatedObject="RDIU" notificationType="REMOVE" oldValue="A429"/>
+  <observations date="2015-04-06T11:09:19.368+0200" user="admin" updatedObject="ChannelConf : Channel1.Direction" notificationType="SET" updatedProperty="value" oldValue="TX" aNewValue="RX"/>
+  <observations date="2015-04-13T13:48:44.449+0200" user="admin" updatedObject="Data : Data" notificationType="ADD" updatedProperty="filters" aNewValue="BNR_I81"/>
+  <observations date="2015-04-13T13:49:36.999+0200" user="admin" updatedObject="Data" notificationType="REMOVE" oldValue="BNR_I81"/>
+  <observations date="2015-09-19T05:13:05.083+0200" user="admin" updatedObject="Data : Label" notificationType="ADD" updatedProperty="datas" aNewValue="Data1"/>
+  <observations date="2015-09-19T05:13:28.250+0200" user="admin" updatedObject="Data : Data1" notificationType="SET" updatedProperty="type" oldValue="java.lang.Object@1a76452" aNewValue="INT"/>
+  <observations date="2015-09-19T05:13:41.556+0200" user="admin" updatedObject="Data : Data1" notificationType="SET" updatedProperty="min" oldValue="java.lang.Object@1a76452" aNewValue="0"/>
+  <observations date="2015-09-19T05:13:42.281+0200" user="admin" updatedObject="Data : Data1" notificationType="SET" updatedProperty="max" oldValue="java.lang.Object@1a76452" aNewValue="0"/>
+  <observations date="2015-09-19T05:13:47.359+0200" user="admin" updatedObject="Data : Data1" notificationType="SET" updatedProperty="defaultValue" oldValue="java.lang.Object@1a76452" aNewValue="0"/>
+  <observations date="2015-09-19T05:14:09.893+0200" user="admin" updatedObject="Data : Data1" notificationType="ADD" updatedProperty="filters" aNewValue="BNR_I8"/>
+  <observations date="2015-09-19T05:14:50.778+0200" user="admin" updatedObject="Label" notificationType="REMOVE" oldValue="Data1"/>
+  <observations date="2015-09-19T05:26:37.476+0200" user="admin" updatedObject="Data : Data" notificationType="SET" updatedProperty="type" oldValue="DOUBLE" aNewValue="INT"/>
+  <observations date="2015-09-19T05:28:09.050+0200" user="admin" updatedObject="Data : Data" notificationType="ADD" updatedProperty="filters" aNewValue="BNR_I8_INT"/>
+  <observations date="2015-09-19T05:28:19.032+0200" user="admin" updatedObject="DataFilterConf : BNR_I8_INT.Bit number" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="16"/>
+  <observations date="2015-09-19T05:28:36.030+0200" user="admin" updatedObject="DataFilterConf : BNR_I8_INT.First bit" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="3"/>
+  <observations date="2015-09-19T05:28:47.158+0200" user="admin" updatedObject="DataFilterConf : BNR_I8_INT.Weight" notificationType="SET" updatedProperty="value" oldValue="0.0" aNewValue="0.01"/>
+  <observations date="2015-09-19T05:29:02.016+0200" user="admin" updatedObject="Data" notificationType="REMOVE" oldValue="BNR_I8_INT"/>
+  <observations date="2015-09-19T05:29:10.831+0200" user="admin" updatedObject="Data : Data" notificationType="SET" updatedProperty="type" oldValue="INT" aNewValue="OPAQUE"/>
+  <observations date="2015-09-19T05:29:13.488+0200" user="admin" updatedObject="Data : Data" notificationType="SET" updatedProperty="type" oldValue="java.lang.Object@1a76452" aNewValue="DOUBLE"/>
+  <observations date="2015-09-19T05:33:45.165+0200" user="admin" updatedObject="Data : Label" notificationType="ADD" updatedProperty="datas" aNewValue="Data1"/>
+  <observations date="2015-09-19T05:33:57.128+0200" user="admin" updatedObject="Data : Data1" notificationType="ADD" updatedProperty="filters" aNewValue="BNR_I8_INT"/>
+  <observations date="2015-09-19T05:34:04.052+0200" user="admin" updatedObject="Data : Data1" notificationType="SET" updatedProperty="type" oldValue="java.lang.Object@1a76452" aNewValue="INT"/>
+  <observations date="2015-09-19T05:34:08.287+0200" user="admin" updatedObject="Data : Data1" notificationType="SET" updatedProperty="min" oldValue="java.lang.Object@1a76452" aNewValue="0"/>
+  <observations date="2015-09-19T05:34:09.233+0200" user="admin" updatedObject="Data : Data1" notificationType="SET" updatedProperty="max" oldValue="java.lang.Object@1a76452" aNewValue="0"/>
+  <observations date="2015-09-19T05:34:10.970+0200" user="admin" updatedObject="Data : Data1" notificationType="SET" updatedProperty="defaultValue" oldValue="java.lang.Object@1a76452" aNewValue="0"/>
+  <observations date="2015-09-19T05:34:20.758+0200" user="admin" updatedObject="DataFilterConf : BNR_I8_INT.Bit number" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="3"/>
+  <observations date="2015-09-19T05:34:32.498+0200" user="admin" updatedObject="DataFilterConf : BNR_I8_INT.First bit" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="19"/>
+  <observations date="2015-09-19T05:34:35.917+0200" user="admin" updatedObject="DataFilterConf : BNR_I8_INT.Weight" notificationType="SET" updatedProperty="value" oldValue="0.0" aNewValue="1.0"/>
+  <observations date="2015-09-19T05:34:50.994+0200" user="admin" updatedObject="DataFilterConf : BNR_I8_INT.First bit" notificationType="SET" updatedProperty="value" oldValue="19" aNewValue="20"/>
+  <observations date="2015-09-19T05:40:18.493+0200" user="admin" updatedObject="Data : Data1" notificationType="SET" updatedProperty="comment" oldValue="java.lang.Object@1a76452" aNewValue=""/>
+  <observations date="2015-09-19T05:40:36.346+0200" user="admin" updatedObject="Data : Data1" notificationType="SET" updatedProperty="type" oldValue="INT" aNewValue="DOUBLE"/>
+  <observations date="2015-09-19T05:40:48.982+0200" user="admin" updatedObject="Data1" notificationType="REMOVE" oldValue="BNR_I8_INT"/>
+  <observations date="2015-09-19T05:40:56.368+0200" user="admin" updatedObject="Data : Data1" notificationType="ADD" updatedProperty="filters" aNewValue="BNR_I8"/>
+  <observations date="2015-09-19T05:45:08.273+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.Bit number" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="16"/>
+  <observations date="2015-09-19T05:45:13.651+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.Bit number" notificationType="SET" updatedProperty="value" oldValue="16" aNewValue="3"/>
+  <observations date="2015-09-19T05:45:18.432+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.First bit" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="20"/>
+  <observations date="2015-09-19T05:45:22.101+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.Weight" notificationType="SET" updatedProperty="value" oldValue="0.0" aNewValue="1.0"/>
+  <observations date="2015-09-19T05:47:53.625+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.Bit number" notificationType="SET" updatedProperty="value" oldValue="3" aNewValue="1"/>
+  <observations date="2015-09-19T05:50:01.195+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.First bit" notificationType="SET" updatedProperty="value" oldValue="20" aNewValue="21"/>
+  <observations date="2015-09-19T05:51:06.859+0200" user="admin" updatedObject="Label" notificationType="REMOVE" oldValue="Data1"/>
+  <observations date="2015-09-19T05:51:24.925+0200" user="admin" updatedObject="DataContainer : Automatic Framing" notificationType="ADD" updatedProperty="datas" aNewValue="Label1"/>
+  <observations date="2015-09-19T05:51:35.833+0200" user="admin" updatedObject="Data : Label1" notificationType="ADD" updatedProperty="datas" aNewValue="data"/>
+  <observations date="2015-09-19T05:51:46.355+0200" user="admin" updatedObject="DataConf : Label1.Label" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="8"/>
+  <observations date="2015-09-19T05:51:50.696+0200" user="admin" updatedObject="DataConf : Label1.Label" notificationType="SET" updatedProperty="value" oldValue="8" aNewValue="171"/>
+  <observations date="2015-09-19T05:51:54.008+0200" user="admin" updatedObject="DataConf : Label1.Period" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="20"/>
+  <observations date="2015-09-19T05:52:11.172+0200" user="admin" updatedObject="Data : data" notificationType="SET" updatedProperty="min" oldValue="java.lang.Object@1a76452" aNewValue="0"/>
+  <observations date="2015-09-19T05:52:11.892+0200" user="admin" updatedObject="Data : data" notificationType="SET" updatedProperty="max" oldValue="java.lang.Object@1a76452" aNewValue="0"/>
+  <observations date="2015-09-19T05:52:14.749+0200" user="admin" updatedObject="Data : data" notificationType="SET" updatedProperty="defaultValue" oldValue="java.lang.Object@1a76452" aNewValue="0"/>
+  <observations date="2015-09-19T05:52:20.174+0200" user="admin" updatedObject="Data : data" notificationType="SET" updatedProperty="type" oldValue="java.lang.Object@1a76452" aNewValue="DOUBLE"/>
+  <observations date="2015-09-19T05:52:27.417+0200" user="admin" updatedObject="Data : data" notificationType="ADD" updatedProperty="filters" aNewValue="BNR_I8"/>
+  <observations date="2015-09-19T05:52:36.700+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.Bit number" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="16"/>
+  <observations date="2015-09-19T05:52:39.049+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.First bit" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="3"/>
+  <observations date="2015-09-19T05:52:40.150+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.Weight" notificationType="SET" updatedProperty="value" oldValue="0.0" aNewValue="1.0"/>
+  <observations date="2015-09-19T05:53:07.184+0200" user="admin" updatedObject="DataContainer : Automatic Framing" notificationType="COPY" oldValue="Label1" aNewValue="Label1"/>
+  <observations date="2015-09-19T08:03:41.794+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.Bit number" notificationType="SET" updatedProperty="value" oldValue="16" aNewValue="10"/>
+  <observations date="2015-09-19T08:03:51.852+0200" user="admin" updatedObject="Data : Label1" notificationType="ADD" updatedProperty="datas" aNewValue="data1"/>
+  <observations date="2015-09-19T08:04:33.071+0200" user="admin" updatedObject="Data : data1" notificationType="ADD" updatedProperty="filters" aNewValue="BNR_I8"/>
+  <observations date="2015-09-19T08:04:40.364+0200" user="admin" updatedObject="Data : data1" notificationType="SET" updatedProperty="type" oldValue="java.lang.Object@1a76452" aNewValue="DOUBLE"/>
+  <observations date="2015-09-19T08:04:51.858+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.Bit number" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="6"/>
+  <observations date="2015-09-19T08:04:55.225+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.First bit" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="14"/>
+  <observations date="2015-09-19T08:05:03.574+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.Weight" notificationType="SET" updatedProperty="value" oldValue="0.0" aNewValue="1.0"/>
+  <observations date="2015-09-19T08:35:59.244+0200" user="admin" updatedObject="DataFilterConf : BNR_I8.First bit" notificationType="SET" updatedProperty="value" oldValue="14" aNewValue="13"/>
+  <observations date="2015-09-24T10:23:54.666+0200" user="admin" updatedObject="Channel : Channel1" notificationType="SET" updatedProperty="comment" oldValue="java.lang.Object@1405ad1" aNewValue=""/>
+  <observations date="2015-09-24T10:29:09.387+0200" user="admin" updatedObject="Device : RDIU" notificationType="SET" updatedProperty="comment" oldValue="java.lang.Object@1405ad1" aNewValue=""/>
+  <observations date="2015-09-24T10:29:13.404+0200" user="admin" updatedObject="Channel : Channel1" notificationType="SET" updatedProperty="comment" oldValue="java.lang.Object@1405ad1" aNewValue=""/>
+  <observations date="2015-10-19T10:59:18.473+0200" user="admin" updatedObject="Data : data1" notificationType="SET" updatedProperty="min" oldValue="java.lang.Object@17109a" aNewValue="0"/>
+  <observations date="2015-10-19T10:59:19.131+0200" user="admin" updatedObject="Data : data1" notificationType="SET" updatedProperty="max" oldValue="java.lang.Object@17109a" aNewValue="0"/>
+  <observations date="2015-10-19T10:59:21.314+0200" user="admin" updatedObject="Data : data1" notificationType="SET" updatedProperty="defaultValue" oldValue="java.lang.Object@17109a" aNewValue="0"/>
+  <observations date="2015-10-19T11:00:39.623+0200" user="admin" updatedObject="Channel1; Automatic Framing" notificationType="REMOVE" oldValue="Label1"/>
+  <observations date="2015-10-19T11:00:45.797+0200" user="admin" updatedObject="Channel1; Automatic Framing" notificationType="REMOVE" oldValue="Label1"/>
+  <observations date="2015-10-19T11:01:22.069+0200" user="admin" updatedObject="ChannelConf : Channel1.Bit rate" notificationType="SET" updatedProperty="value" oldValue="12500" aNewValue="100000"/>
+  <observations date="2015-10-19T11:01:27.769+0200" user="admin" updatedObject="ChannelConf : Channel1.Bit rate" notificationType="SET" updatedProperty="value" oldValue="12500" aNewValue="100000"/>
+  <observations date="2015-10-19T11:01:34.911+0200" user="admin" updatedObject="ChannelConf : Channel1.Parity" notificationType="SET" updatedProperty="value" oldValue="Odd" aNewValue="None"/>
+  <observations date="2015-10-19T11:01:40.401+0200" user="admin" updatedObject="ChannelConf : Channel1.Parity" notificationType="SET" updatedProperty="value" oldValue="Odd" aNewValue="None"/>
+  <observations date="2015-12-02T02:37:04.800+0100" user="admin" updatedObject="DataContainer : Automatic Framing" notificationType="ADD" updatedProperty="datas" aNewValue="Autovalue"/>
+  <observations date="2015-12-02T02:37:17.191+0100" user="admin" updatedObject="Automatic Framing" notificationType="REMOVE" oldValue="Autovalue"/>
+  <observations date="2015-12-02T02:37:22.209+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Autovalue"/>
+  <observations date="2015-12-02T02:37:33.179+0100" user="admin" updatedObject="DataContainer : Automatic Framing" notificationType="ADD" updatedProperty="datas" aNewValue="Label1"/>
+  <observations date="2015-12-02T02:38:23.280+0100" user="admin" updatedObject="Data : Label1" notificationType="ADD" updatedProperty="datas" aNewValue="data1"/>
+  <observations date="2015-12-02T02:38:47.815+0100" user="admin" updatedObject="DataConf : Label1.Label" notificationType="SET" updatedProperty="valueFormat" oldValue="Octal" aNewValue="Binary"/>
+  <observations date="2015-12-02T02:38:48.649+0100" user="admin" updatedObject="DataConf : Label1.Label" notificationType="SET" updatedProperty="valueFormat" oldValue="Binary" aNewValue="Decimal"/>
+  <observations date="2015-12-02T02:38:53.194+0100" user="admin" updatedObject="DataConf : Label1.Label" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="8"/>
+  <observations date="2015-12-02T02:39:00.888+0100" user="admin" updatedObject="DataConf : Label1.Period" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="50"/>
+  <observations date="2015-12-02T02:39:22.028+0100" user="admin" updatedObject="Data : data1" notificationType="ADD" updatedProperty="filters" aNewValue="BNR_I8"/>
+  <observations date="2015-12-02T02:39:41.995+0100" user="admin" updatedObject="Data : Label1" notificationType="SET" updatedProperty="type" oldValue="java.lang.Object@1d7c725" aNewValue="DOUBLE"/>
+  <observations date="2015-12-02T02:39:45.448+0100" user="admin" updatedObject="Data : Label1" notificationType="SET" updatedProperty="min" oldValue="java.lang.Object@1d7c725" aNewValue="0"/>
+  <observations date="2015-12-02T02:39:46.496+0100" user="admin" updatedObject="Data : Label1" notificationType="SET" updatedProperty="max" oldValue="java.lang.Object@1d7c725" aNewValue="0"/>
+  <observations date="2015-12-02T02:39:47.171+0100" user="admin" updatedObject="Data : Label1" notificationType="SET" updatedProperty="defaultValue" oldValue="java.lang.Object@1d7c725" aNewValue="0"/>
+  <observations date="2015-12-02T02:40:05.708+0100" user="admin" updatedObject="Data : Label1" notificationType="SET" updatedProperty="type" oldValue="DOUBLE" aNewValue="OPAQUE"/>
+  <observations date="2015-12-02T02:40:08.519+0100" user="admin" updatedObject="Data : Label1" notificationType="SET" updatedProperty="min" oldValue="0" aNewValue=""/>
+  <observations date="2015-12-02T02:40:09.648+0100" user="admin" updatedObject="Data : Label1" notificationType="SET" updatedProperty="max" oldValue="0" aNewValue=""/>
+  <observations date="2015-12-02T02:40:12.210+0100" user="admin" updatedObject="Data : Label1" notificationType="SET" updatedProperty="defaultValue" oldValue="0" aNewValue=""/>
+  <observations date="2015-12-02T02:40:22.322+0100" user="admin" updatedObject="Data : data1" notificationType="SET" updatedProperty="type" oldValue="java.lang.Object@1d7c725" aNewValue="DOUBLE"/>
+  <observations date="2015-12-02T02:40:24.916+0100" user="admin" updatedObject="Data : data1" notificationType="SET" updatedProperty="min" oldValue="java.lang.Object@1d7c725" aNewValue="0"/>
+  <observations date="2015-12-02T02:40:25.518+0100" user="admin" updatedObject="Data : data1" notificationType="SET" updatedProperty="max" oldValue="java.lang.Object@1d7c725" aNewValue="0"/>
+  <observations date="2015-12-02T02:40:27.585+0100" user="admin" updatedObject="Data : data1" notificationType="SET" updatedProperty="defaultValue" oldValue="java.lang.Object@1d7c725" aNewValue="0"/>
+  <observations date="2015-12-02T02:40:49.687+0100" user="admin" updatedObject="DataFilterConf : BNR_I8.Bit number" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="8"/>
+  <observations date="2015-12-02T02:40:51.872+0100" user="admin" updatedObject="DataFilterConf : BNR_I8.First bit" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="3"/>
+  <observations date="2015-12-02T02:41:00.420+0100" user="admin" updatedObject="DataFilterConf : BNR_I8.Weight" notificationType="SET" updatedProperty="value" oldValue="0.0" aNewValue="1.0"/>
+  <observations date="2015-12-02T02:41:31.377+0100" user="admin" updatedObject="DataContainer : Automatic Framing" notificationType="COPY" oldValue="Label1" aNewValue="Label1"/>
+  <observations date="2015-12-02T02:44:59.690+0100" user="admin" updatedObject="Data : Label" notificationType="ADD" updatedProperty="datas" aNewValue="Data1"/>
+  <observations date="2015-12-02T02:45:18.099+0100" user="admin" updatedObject="Data : Data1" notificationType="ADD" updatedProperty="filters" aNewValue="BNR_I8"/>
+  <observations date="2015-12-02T02:46:18.539+0100" user="admin" updatedObject="DataFilterConf : BNR_I8.Bit number" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="2"/>
+  <observations date="2015-12-02T02:46:21.665+0100" user="admin" updatedObject="DataFilterConf : BNR_I8.First bit" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="20"/>
+  <observations date="2015-12-02T02:46:23.997+0100" user="admin" updatedObject="DataFilterConf : BNR_I8.Weight" notificationType="SET" updatedProperty="value" oldValue="0.0" aNewValue="1"/>
+  <observations date="2015-12-02T02:46:27.576+0100" user="admin" updatedObject="DataFilterConf : BNR_I8.Weight" notificationType="SET" updatedProperty="value" oldValue="1" aNewValue="1.0"/>
+  <observations date="2015-12-02T02:47:07.400+0100" user="admin" updatedObject="Data : Data1" notificationType="SET" updatedProperty="type" oldValue="java.lang.Object@1d7c725" aNewValue="DOUBLE"/>
+  <observations date="2015-12-02T02:47:12.929+0100" user="admin" updatedObject="Data : Data1" notificationType="SET" updatedProperty="min" oldValue="java.lang.Object@1d7c725" aNewValue="0"/>
+  <observations date="2015-12-02T02:47:13.795+0100" user="admin" updatedObject="Data : Data1" notificationType="SET" updatedProperty="max" oldValue="java.lang.Object@1d7c725" aNewValue="0"/>
+  <observations date="2015-12-02T02:47:14.389+0100" user="admin" updatedObject="Data : Data1" notificationType="SET" updatedProperty="defaultValue" oldValue="java.lang.Object@1d7c725" aNewValue="0"/>
+  <observations date="2015-12-02T02:50:19.749+0100" user="admin" updatedObject="Automatic Framing" notificationType="REMOVE" oldValue="Label1"/>
+  <observations date="2015-12-02T02:50:26.530+0100" user="admin" updatedObject="Automatic Framing" notificationType="REMOVE" oldValue="Label1"/>
+  <observations date="2015-12-02T02:50:33.500+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Label1"/>
+  <observations date="2015-12-02T02:50:39.629+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Label1"/>
+  <observations date="2015-12-02T02:53:02.689+0100" user="admin" updatedObject="DataFilterConf : BNR_I8.First bit" notificationType="SET" updatedProperty="value" oldValue="20" aNewValue="18"/>
+  <observations date="2015-12-02T02:58:34.735+0100" user="admin" updatedObject="DataFilterConf : BNR_I8.First bit" notificationType="SET" updatedProperty="value" oldValue="18" aNewValue="19"/>
+  <observations date="2015-12-02T03:00:14.586+0100" user="admin" updatedObject="Label" notificationType="REMOVE" oldValue="Data1"/>
+  <observations date="2015-12-02T03:01:24.223+0100" user="admin" updatedObject="Data : Label" notificationType="ADD" updatedProperty="datas" aNewValue="Data1"/>
+  <observations date="2015-12-02T03:01:34.369+0100" user="admin" updatedObject="Data : Data1" notificationType="ADD" updatedProperty="filters" aNewValue="BNR_I8"/>
+  <observations date="2015-12-02T03:02:49.866+0100" user="admin" updatedObject="DataFilterConf : BNR_I8.Bit number" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="2"/>
+  <observations date="2015-12-02T03:02:53.707+0100" user="admin" updatedObject="DataFilterConf : BNR_I8.First bit" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="19"/>
+  <observations date="2015-12-02T03:02:54.874+0100" user="admin" updatedObject="DataFilterConf : BNR_I8.Weight" notificationType="SET" updatedProperty="value" oldValue="0.0" aNewValue="1.0"/>
+  <observations date="2015-12-02T03:03:56.784+0100" user="admin" updatedObject="Data : Data1" notificationType="SET" updatedProperty="type" oldValue="java.lang.Object@1d7c725" aNewValue="DOUBLE"/>
+  <observations date="2015-12-02T03:04:00.165+0100" user="admin" updatedObject="Data : Data1" notificationType="SET" updatedProperty="min" oldValue="java.lang.Object@1d7c725" aNewValue="0"/>
+  <observations date="2015-12-02T03:04:00.947+0100" user="admin" updatedObject="Data : Data1" notificationType="SET" updatedProperty="max" oldValue="java.lang.Object@1d7c725" aNewValue="0"/>
+  <observations date="2015-12-02T03:04:02.275+0100" user="admin" updatedObject="Data : Data1" notificationType="SET" updatedProperty="defaultValue" oldValue="java.lang.Object@1d7c725" aNewValue="0"/>
+  <observations date="2015-12-02T03:17:11.621+0100" user="admin" updatedObject="DataFilterConf : BNR_I8.Bit number" notificationType="SET" updatedProperty="value" oldValue="2" aNewValue="3"/>
+  <observations date="2015-12-02T03:17:32.655+0100" user="admin" updatedObject="DataFilterConf : BNR_I8.Weight" notificationType="SET" updatedProperty="value" oldValue="0.01" aNewValue="1.0"/>
+  <observations date="2015-12-02T03:21:12.663+0100" user="admin" updatedObject="Automatic Framing" notificationType="REMOVE" oldValue="Label"/>
+  <observations date="2015-12-02T03:21:18.233+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Label"/>
+  <observations date="2015-12-02T03:21:28.128+0100" user="admin" updatedObject="DataContainer : Automatic Framing" notificationType="COPY" oldValue="Label" aNewValue="Label"/>
+  <observations date="2015-12-02T03:25:15.862+0100" user="admin" updatedObject="Data : Data" notificationType="ADD" updatedProperty="filters" aNewValue="BIN_I8"/>
+  <observations date="2015-12-02T03:25:24.607+0100" user="admin" updatedObject="DataFilterConf : BIN_I8.Bit number" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="16"/>
+  <observations date="2015-12-02T03:25:29.146+0100" user="admin" updatedObject="DataFilterConf : BIN_I8.First bit" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="3"/>
+  <observations date="2015-12-02T03:25:31.615+0100" user="admin" updatedObject="DataFilterConf : BIN_I8.Weight" notificationType="SET" updatedProperty="value" oldValue="0.0" aNewValue="1"/>
+  <observations date="2015-12-02T03:25:44.678+0100" user="admin" updatedObject="Data : Data1" notificationType="ADD" updatedProperty="filters" aNewValue="BIN_I8"/>
+  <observations date="2015-12-02T03:26:01.440+0100" user="admin" updatedObject="DataFilterConf : BIN_I8.Bit number" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="3"/>
+  <observations date="2015-12-02T03:26:07.398+0100" user="admin" updatedObject="DataFilterConf : BIN_I8.First bit" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="19"/>
+  <observations date="2015-12-02T03:26:08.193+0100" user="admin" updatedObject="DataFilterConf : BIN_I8.Weight" notificationType="SET" updatedProperty="value" oldValue="0.0" aNewValue="1"/>
+  <observations date="2015-12-02T03:26:22.012+0100" user="admin" updatedObject="Data" notificationType="REMOVE" oldValue="BNR_I8"/>
+  <observations date="2015-12-02T03:26:26.796+0100" user="admin" updatedObject="Data1" notificationType="REMOVE" oldValue="BNR_I8"/>
+  <observations date="2015-12-02T03:26:46.632+0100" user="admin" updatedObject="Automatic Framing" notificationType="REMOVE" oldValue="Label"/>
+  <observations date="2015-12-02T03:26:52.030+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Label"/>
+  <observations date="2015-12-02T03:27:06.264+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Automatic Framing"/>
+  <observations date="2015-12-02T03:27:14.108+0100" user="admin" updatedObject="Channel : Channel1" notificationType="COPY" oldValue="Automatic Framing" aNewValue="Automatic Framing"/>
+  <observations date="2015-12-02T04:07:05.177+0100" user="admin" updatedObject="Channel : Channel1" notificationType="ADD" updatedProperty="dataContainers" aNewValue="Automatic Framing"/>
+  <observations date="2015-12-02T04:07:21.320+0100" user="admin" updatedObject="DataContainer : Automatic Framing" notificationType="ADD" updatedProperty="datas" aNewValue="Autovalue"/>
+  <observations date="2015-12-02T04:12:27.182+0100" user="admin" updatedObject="DataFilterConf : Autovalue.Bit number" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="10"/>
+  <observations date="2015-12-02T04:12:39.405+0100" user="admin" updatedObject="DataFilterConf : Autovalue.First bit" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="3"/>
+  <observations date="2015-12-02T04:12:59.460+0100" user="admin" updatedObject="Channel : Channel1" notificationType="COPY" oldValue="Automatic Framing" aNewValue="Automatic Framing"/>
+  <observations date="2015-12-02T04:14:07.534+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Automatic Framing"/>
+  <observations date="2015-12-02T04:14:16.495+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Automatic Framing"/>
+  <observations date="2015-12-02T04:15:06.923+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Autovalue"/>
+  <observations date="2015-12-02T04:15:13.289+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Autovalue"/>
+  <observations date="2015-12-02T04:18:01.059+0100" user="admin" updatedObject="Channel : Channel1" notificationType="ADD" updatedProperty="dataContainers" aNewValue="Frame"/>
+  <observations date="2015-12-02T04:18:31.750+0100" user="admin" updatedObject="DataContainer : Frame" notificationType="ADD" updatedProperty="sublists" aNewValue="Async"/>
+  <observations date="2015-12-02T04:18:40.098+0100" user="admin" updatedObject="DataContainer : Async" notificationType="ADD" updatedProperty="datas" aNewValue="Label"/>
+  <observations date="2015-12-02T04:18:55.435+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Frame"/>
+  <observations date="2015-12-02T04:19:37.625+0100" user="admin" updatedObject="DataContainer : Automatic Framing" notificationType="ADD" updatedProperty="datas" aNewValue="Label1"/>
+  <observations date="2015-12-02T04:19:44.046+0100" user="admin" updatedObject="Automatic Framing" notificationType="REMOVE" oldValue="Label1"/>
+  <observations date="2015-12-02T04:19:51.538+0100" user="admin" updatedObject="DataContainer : Automatic Framing" notificationType="ADD" updatedProperty="datas" aNewValue="Label1"/>
+  <observations date="2015-12-02T04:20:01.645+0100" user="admin" updatedObject="Data : Label1" notificationType="ADD" updatedProperty="datas" aNewValue="data2"/>
+  <observations date="2015-12-02T04:20:16.123+0100" user="admin" updatedObject="Data : data2" notificationType="ADD" updatedProperty="filters" aNewValue="BIN_I8"/>
+  <observations date="2015-12-02T04:20:23.597+0100" user="admin" updatedObject="Data : data2" notificationType="SET" updatedProperty="type" oldValue="java.lang.Object@675030" aNewValue="INT"/>
+  <observations date="2015-12-02T04:20:28.726+0100" user="admin" updatedObject="Data : data2" notificationType="SET" updatedProperty="min" oldValue="java.lang.Object@675030" aNewValue="0"/>
+  <observations date="2015-12-02T04:20:29.414+0100" user="admin" updatedObject="Data : data2" notificationType="SET" updatedProperty="max" oldValue="java.lang.Object@675030" aNewValue="0"/>
+  <observations date="2015-12-02T04:20:31.984+0100" user="admin" updatedObject="Data : data2" notificationType="SET" updatedProperty="defaultValue" oldValue="java.lang.Object@675030" aNewValue="0"/>
+  <observations date="2015-12-02T04:20:45.766+0100" user="admin" updatedObject="DataFilterConf : BIN_I8.Bit number" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="16"/>
+  <observations date="2015-12-02T04:20:48.729+0100" user="admin" updatedObject="DataFilterConf : BIN_I8.First bit" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="3"/>
+  <observations date="2015-12-02T04:20:53.536+0100" user="admin" updatedObject="DataFilterConf : BIN_I8.Weight" notificationType="SET" updatedProperty="value" oldValue="0.0" aNewValue="1.0"/>
+  <observations date="2015-12-02T04:21:13.429+0100" user="admin" updatedObject="DataConf : Label1.Label" notificationType="SET" updatedProperty="valueFormat" oldValue="Octal" aNewValue="Binary"/>
+  <observations date="2015-12-02T04:21:14.279+0100" user="admin" updatedObject="DataConf : Label1.Label" notificationType="SET" updatedProperty="valueFormat" oldValue="Binary" aNewValue="Decimal"/>
+  <observations date="2015-12-02T04:21:18.958+0100" user="admin" updatedObject="DataConf : Label1.Label" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="8"/>
+  <observations date="2015-12-02T04:21:21.317+0100" user="admin" updatedObject="DataConf : Label1.Period" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="20"/>
+  <observations date="2015-12-02T04:21:46.637+0100" user="admin" updatedObject="DataContainer : Automatic Framing" notificationType="COPY" oldValue="Label1" aNewValue="Label1"/>
+  <observations date="2015-12-02T04:23:08.561+0100" user="admin" updatedObject="Data : data2" notificationType="SET" updatedProperty="type" oldValue="INT" aNewValue="DOUBLE"/>
+  <observations date="2015-12-02T04:23:22.123+0100" user="admin" updatedObject="Data : data2" notificationType="SET" updatedProperty="type" oldValue="INT" aNewValue="DOUBLE"/>
+  <observations date="2015-12-02T04:26:01.796+0100" user="admin" updatedObject="Data : Data" notificationType="SET" updatedProperty="comment" oldValue="java.lang.Object@675030" aNewValue=""/>
+  <observations date="2015-12-02T04:28:46.392+0100" user="admin" updatedObject="DataConf : Label.Block" notificationType="SET" updatedProperty="property" oldValue="block" aNewValue="Block"/>
+  <observations date="2015-12-02T04:32:07.339+0100" user="admin" updatedObject="DataConf : Label.Block" notificationType="SET" updatedProperty="value" oldValue="java.lang.Object@675030" aNewValue="TImeCycleStatusResponse"/>
+  <observations date="2015-12-02T04:32:14.475+0100" user="admin" updatedObject="DataConf : Label.WordCount" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="4"/>
+  <observations date="2015-12-02T04:33:11.724+0100" user="admin" updatedObject="DataConf : Label.PresentWord" notificationType="SET" updatedProperty="property" oldValue="PresentBlock" aNewValue="PresentWord"/>
+  <observations date="2015-12-02T04:34:56.777+0100" user="admin" updatedObject="DataConf : Label1.Block" notificationType="SET" updatedProperty="value" oldValue="java.lang.Object@675030" aNewValue="TImeCycleStatusResponse"/>
+  <observations date="2015-12-02T04:35:02.664+0100" user="admin" updatedObject="DataConf : Label1.WordCount" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="4"/>
+  <observations date="2015-12-02T04:35:03.787+0100" user="admin" updatedObject="DataConf : Label1.PresentWord" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="1"/>
+  <observations date="2015-12-02T04:35:42.269+0100" user="admin" updatedObject="DataConf : Label.WordCount" notificationType="SET" updatedProperty="value" oldValue="4" aNewValue="2"/>
+  <observations date="2015-12-02T04:35:45.898+0100" user="admin" updatedObject="DataConf : Label1.WordCount" notificationType="SET" updatedProperty="value" oldValue="4" aNewValue="2"/>
+  <observations date="2015-12-02T04:36:04.567+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Automatic Framing"/>
+  <observations date="2015-12-02T04:36:09.135+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Label"/>
+  <observations date="2015-12-02T04:36:13.307+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Label1"/>
+  <observations date="2015-12-02T04:36:20.036+0100" user="admin" updatedObject="Channel : Channel1" notificationType="COPY" oldValue="Automatic Framing" aNewValue="Automatic Framing"/>
+  <observations date="2015-12-02T06:59:56.053+0100" user="admin" updatedObject="Automatic Framing" notificationType="REMOVE" oldValue="Label1"/>
+  <observations date="2015-12-02T07:00:04.037+0100" user="admin" updatedObject="Automatic Framing" notificationType="REMOVE" oldValue="Label1"/>
+  <observations date="2015-12-02T07:00:12.918+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Label1"/>
+  <observations date="2015-12-02T07:00:17.807+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Label1"/>
+  <observations date="2015-12-02T07:04:30.031+0100" user="admin" updatedObject="DataContainer : Automatic Framing" notificationType="ADD" updatedProperty="datas" aNewValue="Autovalue"/>
+  <observations date="2015-12-02T07:04:58.115+0100" user="admin" updatedObject="DataFilterConf : Autovalue.First bit" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="1"/>
+  <observations date="2015-12-02T07:05:33.685+0100" user="admin" updatedObject="DataFilterConf : Autovalue.Bit number" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="23"/>
+  <observations date="2015-12-02T07:06:02.087+0100" user="admin" updatedObject="DataContainer : Automatic Framing" notificationType="COPY" oldValue="Autovalue" aNewValue="Autovalue"/>
+  <observations date="2015-12-02T07:10:56.684+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Automatic Framing"/>
+  <observations date="2015-12-02T07:11:06.457+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Autovalue"/>
+  <observations date="2015-12-02T07:11:11.731+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Label"/>
+  <observations date="2015-12-02T07:11:17.823+0100" user="admin" updatedObject="Channel : Channel1" notificationType="ADD" updatedProperty="dataContainers" aNewValue="Automatic Framing"/>
+  <observations date="2015-12-02T07:11:27.059+0100" user="admin" updatedObject="DataContainer : Automatic Framing" notificationType="ADD" updatedProperty="datas" aNewValue="Label356"/>
+  <observations date="2015-12-02T07:11:36.826+0100" user="admin" updatedObject="DataConf : Label356.Label" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="238"/>
+  <observations date="2015-12-02T07:11:46.319+0100" user="admin" updatedObject="Data : Label356" notificationType="ADD" updatedProperty="datas" aNewValue="data1"/>
+  <observations date="2015-12-02T07:11:56.858+0100" user="admin" updatedObject="Data : data1" notificationType="SET" updatedProperty="type" oldValue="java.lang.Object@99d6ee" aNewValue="INT"/>
+  <observations date="2015-12-02T07:12:10.246+0100" user="admin" updatedObject="Data : data1" notificationType="ADD" updatedProperty="filters" aNewValue="DIS_I8_INT"/>
+  <observations date="2015-12-02T07:12:26.803+0100" user="admin" updatedObject="DataFilterConf : DIS_I8_INT.Bit number" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="23"/>
+  <observations date="2015-12-02T07:12:28.606+0100" user="admin" updatedObject="DataFilterConf : DIS_I8_INT.First bit" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="1"/>
+  <observations date="2015-12-02T07:12:46.348+0100" user="admin" updatedObject="RDIU" notificationType="REMOVE" oldValue="Channel1"/>
+  <observations date="2015-12-02T07:12:54.340+0100" user="admin" updatedObject="Device : RDIU" notificationType="ADD" updatedProperty="channels" aNewValue="ARINC 429"/>
+  <observations date="2015-12-02T07:13:05.516+0100" user="admin" updatedObject="Device : RDIU" notificationType="COPY" oldValue="Channel1" aNewValue="Channel1"/>
+  <observations date="2015-12-02T07:13:10.137+0100" user="admin" updatedObject="RDIU" notificationType="REMOVE" oldValue="ARINC 429"/>
+  <observations date="2015-12-02T07:13:22.474+0100" user="admin" updatedObject="ChannelConf : Channel1.Direction" notificationType="SET" updatedProperty="value" oldValue="TX" aNewValue="RX"/>
+  <observations date="2015-12-02T07:17:37.074+0100" user="admin" updatedObject="DataConf : Label356.Period" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="20"/>
+  <observations date="2015-12-15T07:37:42.783+0100" user="admin" updatedObject="DataConf : Label356.Period" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="20"/>
+  <observations date="2015-12-15T08:03:06.795+0100" user="admin" updatedObject="DataFilterConf : DIS_I8_INT.First bit" notificationType="SET" updatedProperty="value" oldValue="1" aNewValue="3"/>
+  <observations date="2015-12-15T08:03:11.052+0100" user="admin" updatedObject="DataFilterConf : DIS_I8_INT.Bit number" notificationType="SET" updatedProperty="value" oldValue="23" aNewValue="8"/>
+  <observations date="2015-12-15T08:06:14.056+0100" user="admin" updatedObject="Channel1" notificationType="REMOVE" oldValue="Label356"/>
+  <observations date="2015-12-15T08:06:21.183+0100" user="admin" updatedObject="Automatic Framing" notificationType="REMOVE" oldValue="Label356"/>
+  <observations date="2015-12-15T08:06:30.048+0100" user="admin" updatedObject="DataContainer : Automatic Framing" notificationType="COPY" oldValue="Label356" aNewValue="Label356"/>
+  <observations date="2015-12-15T08:16:28.749+0100" user="admin" updatedObject="DataConf : Label356.Label" notificationType="SET" updatedProperty="valueFormat" oldValue="Octal" aNewValue="Binary"/>
+  <observations date="2015-12-15T08:16:30.328+0100" user="admin" updatedObject="DataConf : Label356.Label" notificationType="SET" updatedProperty="valueFormat" oldValue="Binary" aNewValue="Decimal"/>
+  <observations date="2015-12-15T08:16:38.355+0100" user="admin" updatedObject="DataConf : Label356.Label" notificationType="SET" updatedProperty="value" oldValue="238" aNewValue="120"/>
+  <observations date="2015-12-15T08:16:43.619+0100" user="admin" updatedObject="DataConf : Label356.Label" notificationType="SET" updatedProperty="valueFormat" oldValue="Octal" aNewValue="Binary"/>
+  <observations date="2015-12-15T08:16:45.223+0100" user="admin" updatedObject="DataConf : Label356.Label" notificationType="SET" updatedProperty="valueFormat" oldValue="Binary" aNewValue="Decimal"/>
+  <observations date="2015-12-15T08:16:49.019+0100" user="admin" updatedObject="DataConf : Label356.Label" notificationType="SET" updatedProperty="value" oldValue="238" aNewValue="120"/>
+  <observations date="2015-12-15T08:24:50.062+0100" user="admin" updatedObject="DataFilterConf : DIS_I8_INT.First bit" notificationType="SET" updatedProperty="value" oldValue="3" aNewValue="4"/>
+  <observations date="2015-12-15T08:24:55.842+0100" user="admin" updatedObject="DataFilterConf : DIS_I8_INT.First bit" notificationType="SET" updatedProperty="value" oldValue="3" aNewValue="4"/>
+  <observations date="2015-12-15T08:25:06.520+0100" user="admin" updatedObject="Data : Label" notificationType="SET" updatedProperty="name" oldValue="Label356" aNewValue="Label"/>
+  <observations date="2015-12-15T08:25:09.945+0100" user="admin" updatedObject="Data : Label" notificationType="SET" updatedProperty="name" oldValue="Label356" aNewValue="Label"/>
+  <observations date="2015-12-15T08:28:14.549+0100" user="admin" updatedObject="RDIU" notificationType="REMOVE" oldValue="Channel1"/>
+  <observations date="2015-12-15T08:28:18.558+0100" user="admin" updatedObject="FADEC" notificationType="REMOVE" oldValue="Channel1"/>
+  <observations date="2015-12-15T08:28:25.655+0100" user="admin" updatedObject="Device : FADEC" notificationType="ADD" updatedProperty="channels" aNewValue="ARINC 429"/>
+  <observations date="2015-12-15T08:28:35.346+0100" user="admin" updatedObject="ChannelConf : ARINC 429.Bit rate" notificationType="SET" updatedProperty="value" oldValue="12500" aNewValue="100000"/>
+  <observations date="2015-12-15T08:28:42.211+0100" user="admin" updatedObject="Channel : ARINC 429" notificationType="ADD" updatedProperty="dataContainers" aNewValue="Automatic Framing"/>
+  <observations date="2015-12-15T08:28:49.535+0100" user="admin" updatedObject="DataContainer : Automatic Framing" notificationType="ADD" updatedProperty="datas" aNewValue="Label"/>
+  <observations date="2015-12-15T08:28:57.525+0100" user="admin" updatedObject="DataConf : Label.Label" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="80"/>
+  <observations date="2015-12-15T08:29:00.002+0100" user="admin" updatedObject="DataConf : Label.Period" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="100"/>
+  <observations date="2015-12-15T08:29:11.702+0100" user="admin" updatedObject="Data : Label" notificationType="ADD" updatedProperty="datas" aNewValue="data"/>
+  <observations date="2015-12-15T08:29:22.870+0100" user="admin" updatedObject="Data : data" notificationType="SET" updatedProperty="type" oldValue="java.lang.Object@113ec4d" aNewValue="INT"/>
+  <observations date="2015-12-15T08:29:45.070+0100" user="admin" updatedObject="Data : data" notificationType="ADD" updatedProperty="filters" aNewValue="DIS_I8_INT"/>
+  <observations date="2015-12-15T08:29:52.801+0100" user="admin" updatedObject="DataFilterConf : DIS_I8_INT.Bit number" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="3"/>
+  <observations date="2015-12-15T08:29:58.443+0100" user="admin" updatedObject="DataFilterConf : DIS_I8_INT.Bit number" notificationType="SET" updatedProperty="value" oldValue="3" aNewValue="8"/>
+  <observations date="2015-12-15T08:29:59.474+0100" user="admin" updatedObject="DataFilterConf : DIS_I8_INT.First bit" notificationType="SET" updatedProperty="value" oldValue="0" aNewValue="3"/>
+  <observations date="2015-12-15T08:30:14.201+0100" user="admin" updatedObject="Device : RDIU" notificationType="COPY" oldValue="ARINC 429" aNewValue="ARINC 429"/>
+  <observations date="2015-12-15T08:30:19.143+0100" user="admin" updatedObject="ChannelConf : ARINC 429.Direction" notificationType="SET" updatedProperty="value" oldValue="TX" aNewValue="RX"/>
+  <observations date="2016-03-08T10:26:30.093+0100" user="admin" updatedObject="Channel : ARINC 429" notificationType="ADD" updatedProperty="dataContainers" aNewValue="Frame"/>
+  <observations date="2016-03-08T10:26:52.191+0100" user="admin" updatedObject="ARINC 429" notificationType="REMOVE" oldValue="Frame"/>
+</eads.ts.ate.hmi.log.model:Log>

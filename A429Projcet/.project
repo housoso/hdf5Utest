@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>A429Projcet</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>eads.ts.ate.hmi.project.core.MMIProjectNature</nature>
+	</natures>
+</projectDescription>

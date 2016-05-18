@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eads.ts.ate.hmi.log.model:LogSet xmlns:eads.ts.ate.hmi.log.model="http://fr.alyotech.ate/ATE/Log/">
+  <logs href="ICD_current.log#/"/>
+</eads.ts.ate.hmi.log.model:LogSet>

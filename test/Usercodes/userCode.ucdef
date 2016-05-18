@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usercode:UserCode xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:usercode="http://eads.ts.ate.hmi/configuration/usercode" name="test" id="1442561236843" configuratorId="RTC User Code Linux Template">
+  <inputs name="IMPORT">
+    <ioPoints name="input" id="1442561236844" dataType="OPAQUE" size="100"/>
+    <ioPoints name="inputtrg" id="1463109823195" dataType="INT"/>
+  </inputs>
+  <outputs name="EXPORT">
+    <ioPoints name="output" id="1442561236845" dataType="OPAQUE" size="100"/>
+    <ioPoints name="outputtrg" id="1463541579324" dataType="INT"/>
+  </outputs>
+</usercode:UserCode>

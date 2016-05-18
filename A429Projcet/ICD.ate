@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eads.ts.ate.hmi.model:ICD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:eads.ts.ate.hmi.model="http://fr.alyotech.ate/ATE/" lastIndex="148">
+  <devices name="FADEC" index="3" channels="//@bus/@channels.0"/>
+  <devices name="RDIU" index="1" channels="//@bus/@channels.1"/>
+  <bus>
+    <channels name="ARINC 429" index="138" type="A429" typeChanged="true" datas="//@bus/@datas.0">
+      <parents>3</parents>
+      <configs property="Direction" value="TX" valuePattern="[TX,RX]" displayed="true"/>
+      <configs property="Bit rate" value="100000" type="INT" valuePattern="[12500,100000]" displayed="true"/>
+      <configs property="Parity" value="Odd" valuePattern="[None,Odd,Even]"/>
+      <configs property="SDI" value="Unused" valuePattern="[Unused,0,1,2,3]" displayed="true"/>
+      <configs property="Use Statistics" value="true" comment="Define if statistics is used or not" valuePattern="[true,false]" displayed="true"/>
+      <dataContainers name="Automatic Framing" index="139" type="A429+Automatic Framing" datas="//@bus/@datas.0">
+        <parents>138</parents>
+      </dataContainers>
+    </channels>
+    <channels name="ARINC 429" index="147" type="A429" typeChanged="true" datas="//@bus/@datas.3">
+      <parents>1</parents>
+      <configs property="Direction" value="RX" valuePattern="[TX,RX]" displayed="true"/>
+      <configs property="Bit rate" value="100000" type="INT" valuePattern="[12500,100000]" displayed="true"/>
+      <configs property="Parity" value="Odd" valuePattern="[None,Odd,Even]"/>
+      <configs property="SDI" value="Unused" valuePattern="[Unused,0,1,2,3]" displayed="true"/>
+      <configs property="Use Statistics" value="true" comment="Define if statistics is used or not" valuePattern="[true,false]" displayed="true"/>
+      <dataContainers name="Automatic Framing" index="146" type="A429+Automatic Framing" datas="//@bus/@datas.0">
+        <parents>138</parents>
+      </dataContainers>
+    </channels>
+    <datas name="Label" index="140" size="4" datas="//@bus/@datas.1">
+      <parents>139</parents>
+      <configs property="Label" value="80" type="INT" comment="The identifiant of the ARINC 429 label [0-377 octal]" valuePattern="[0 to 255 by 1 ]" displayed="true" valueFormat="Octal"/>
+      <configs property="Period" value="100" type="DOUBLE" comment="The period (in ms) at which the label will be transmitted" typeChanged="true"/>
+      <configs property="SDI" value="Unused" comment="SDI value of the label" valuePattern="[Unused,0,1,2,3,ChannelSDI]" displayed="true"/>
+      <channelTypes>A429</channelTypes>
+    </datas>
+    <datas name="data" index="141" type="INT" filters="//@bus/@filters.0">
+      <channelTypes>ANY</channelTypes>
+    </datas>
+    <datas name="data" index="144" type="INT" filters="//@bus/@filters.1">
+      <parents>140</parents>
+      <channelTypes>ANY</channelTypes>
+    </datas>
+    <datas name="Label" index="145" size="4" datas="//@bus/@datas.2">
+      <parents>138</parents>
+      <configs property="Label" value="80" type="INT" comment="The identifiant of the ARINC 429 label [0-377 octal]" valuePattern="[0 to 255 by 1 ]" displayed="true" valueFormat="Octal"/>
+      <configs property="Period" value="100" type="DOUBLE" comment="The period (in ms) at which the label will be transmitted" typeChanged="true"/>
+      <configs property="SDI" value="Unused" comment="SDI value of the label" valuePattern="[Unused,0,1,2,3,ChannelSDI]" displayed="true"/>
+      <channelTypes>A429</channelTypes>
+    </datas>
+    <filters name="DIS_I8_INT" index="142" type="DIS_I8_INT">
+      <parents>141</parents>
+      <configs property="Bit number" value="8" type="INT" comment="Bit number" displayed="true"/>
+      <configs property="First bit" value="3" type="INT" comment="First bit offset" displayed="true"/>
+      <configs property="First byte" value="0" type="INT" comment="First byte, the final bit offset equals 'First byte' * 8 + 'First bit'" displayed="true"/>
+      <channelTypes>ANY</channelTypes>
+    </filters>
+    <filters name="DIS_I8_INT" index="143" type="DIS_I8_INT">
+      <parents>141</parents>
+      <parents>144</parents>
+      <configs property="Bit number" value="8" type="INT" comment="Bit number" displayed="true"/>
+      <configs property="First bit" value="3" type="INT" comment="First bit offset" displayed="true"/>
+      <configs property="First byte" value="0" type="INT" comment="First byte, the final bit offset equals 'First byte' * 8 + 'First bit'" displayed="true"/>
+      <channelTypes>ANY</channelTypes>
+    </filters>
+  </bus>
+</eads.ts.ate.hmi.model:ICD>
